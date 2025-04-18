@@ -32,3 +32,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function displaySymbol(val) {
+    if (val === 'X') return '<img src="rubber-duck.png" alt="Duck" class="duck-icon">';
+    else return val;
+  }
